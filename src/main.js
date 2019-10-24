@@ -19,7 +19,7 @@ body{
     box-shadow:0 0 3px rgba(0,0,0,.5);
     border: none;   
 }
-/*阴阳出来把*/
+/*一黑一白方为阴阳*/
 #div1{
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 51%, rgba(0,0,0,1) 100%);
 }
@@ -44,7 +44,7 @@ body{
     background: #000000;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(0, 0, 0, 1) 26%, rgba(0, 0, 0, 1) 100%);
 }
-/*动起来*/
+/*转起来*/
 #div1{
     animation:rotation 2.5s linear infinite;
     -webkit-animation:rotation 2.5s linear infinite;
