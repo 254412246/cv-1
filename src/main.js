@@ -31,6 +31,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
     border-radius:50%;
+    background: #ffffff;
     background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 26%, rgba(255, 255, 255, 1) 100%);
 }
 #div1::after {
@@ -40,6 +41,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
     border-radius:50%;
+    background: #000000;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(0, 0, 0, 1) 26%, rgba(0, 0, 0, 1) 100%);
 }
 /*动起来*/
