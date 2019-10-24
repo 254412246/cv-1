@@ -71,6 +71,6 @@ let stpe = () => {
         if (n + 1 < string.length) {
             stpe();//延迟后调用，相当与循环，需要加个条件
         }
-    }, 0)
+    }, 30)
 };
 stpe();
